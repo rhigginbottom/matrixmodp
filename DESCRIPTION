@@ -1,12 +1,14 @@
 Package: matrixmodp
-Title: What the Package Does (One Line, Title Case)
+Title: Functions for Working with Matrices over Finite Prime Fields
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Ryan", "Higginbottom", "rhigginbottom@washjeff.edu", role = c("aut", "cre"))
+Description: Provides functions for row-reducing and inverting matrices with
+    entries in many of the finite fields (those with a prime number of 
+    elements). With this package, users will be able to find the reduced row 
+    echelon form (RREF) of a matrix and calculate the inverse of a (square, 
+    invertible) matrix.
+License: GPL (>= 2)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
