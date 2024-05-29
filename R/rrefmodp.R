@@ -1,3 +1,9 @@
+#' Check if integer is prime
+#'
+#' @param n integer
+#'
+#' @returns logical value
+#' @noRd
 prime_check <- function(n) {
   if (n == 1) {
     FALSE
@@ -6,10 +12,21 @@ prime_check <- function(n) {
   }
 }
 
-is_prime <- function(n) {
-  sapply(n, prime_check)
-}
-
+#' Find the RREF of a matrix mod p
+#'
+#' `rref_p()` calculates the unique reduced-row echelon form of a matrix with entries in the finite field $F_p$.
+#'
+#' @param A A matrix
+#' @param p A prime integer
+#'
+#' @returns A matrix of the same size as `A` which is the unique reduced-row echelon form of `A`.
+#' @export
+#'
+#' @examples
+#' B <- matrix(c(3,4,1,3,2,0),2,3)
+#' rref_p(B,5)
+#' C <- matrix(c(0,2,0,0,0,2,0,1,1),3,3)
+#' rref_p(C,3)
 rref_p <- function(A, p) {
   if ((!is.matrix(A)) || (!is.numeric(A))) {
     stop("argument must be a numeric matrix")
@@ -17,7 +34,7 @@ rref_p <- function(A, p) {
   if (!(round(p) == p) || p < 2) {
     stop("p must be a positive integer greater than 1")
   }
-  if (!is_prime(p)) {
+  if (!prime_check(p)) {
     stop("p must be a prime number")
   }
   A <- A %% p
