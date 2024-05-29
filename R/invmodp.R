@@ -13,7 +13,7 @@ det_p <- function(A, p) {
 
 #' Calculate the inverse of a matrix mod p
 #'
-#' `inv_p()` finds the inverse of a square matrix over the field $F_p$. The function checks for invertibility and then row-reduces the augmented matrix $[A|I]$ over $F_p$ to find the inverse.
+#' `inv_p()` finds the inverse of a square matrix over the field \eqn{F_p}. The function checks for invertibility and then row-reduces the augmented matrix \eqn{[A|I]} over \eqn{F_p} to find the inverse.
 #'
 #' @param A A square matrix
 #' @param p A prime integer

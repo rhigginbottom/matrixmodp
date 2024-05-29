@@ -14,7 +14,7 @@ prime_check <- function(n) {
 
 #' Find the RREF of a matrix mod p
 #'
-#' `rref_p()` calculates the unique reduced-row echelon form of a matrix with entries in the finite field $F_p$.
+#' `rref_p()` calculates the unique reduced-row echelon form of a matrix with entries in the finite field \eqn{F_p}.
 #'
 #' @param A A matrix
 #' @param p A prime integer
