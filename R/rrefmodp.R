@@ -23,10 +23,10 @@ prime_check <- function(n) {
 #' @export
 #'
 #' @examples
-#' B <- matrix(c(3,4,1,3,2,0),2,3)
-#' rref_p(B,5)
-#' C <- matrix(c(0,2,0,0,0,2,0,1,1),3,3)
-#' rref_p(C,3)
+#' B <- matrix(c(3, 4, 1, 3, 2, 0), 2, 3)
+#' rref_p(B, 5)
+#' C <- matrix(c(0, 2, 0, 0, 0, 2, 0, 1, 1), 3, 3)
+#' rref_p(C, 3)
 rref_p <- function(A, p) {
   if ((!is.matrix(A)) || (!is.numeric(A))) {
     stop("argument must be a numeric matrix")

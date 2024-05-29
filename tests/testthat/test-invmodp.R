@@ -14,11 +14,11 @@ test_that("error when non-prime is entered", {
 })
 
 test_that("cannot find inverse of a singular matrix", {
-  A <- matrix(c(0,1,2,3,1,4,0,1,2), 3, 3)
+  A <- matrix(c(0, 1, 2, 3, 1, 4, 0, 1, 2), 3, 3)
   expect_error(inv_p(A, 5))
 })
 
 test_that("find accurate inverse of matrix", {
-  A <- matrix(c(0,2,2,4,1,4,3,2,1),3,3)
-  expect_equal(inv_p(A, 5), matrix(c(3,2,1,3,4,3,0,1,2),3,3))
+  A <- matrix(c(0, 2, 2, 4, 1, 4, 3, 2, 1), 3, 3)
+  expect_equal(inv_p(A, 5), matrix(c(3, 2, 1, 3, 4, 3, 0, 1, 2), 3, 3))
 })

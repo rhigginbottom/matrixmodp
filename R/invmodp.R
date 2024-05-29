@@ -22,10 +22,10 @@ det_p <- function(A, p) {
 #' @export
 #'
 #' @examples
-#' B <- matrix(c(5,2,3,6,5,5,4,0,2),3,3)
+#' B <- matrix(c(5, 2, 3, 6, 5, 5, 4, 0, 2), 3, 3)
 #' inv_p(B, 7)
-#' C <- matrix(c(3,0,4,0,2,1,1,3,0,3,0,1,3,0,2,1),4,4)
-#' inv_p(C,5)
+#' C <- matrix(c(3, 0, 4, 0, 2, 1, 1, 3, 0, 3, 0, 1, 3, 0, 2, 1), 4, 4)
+#' inv_p(C, 5)
 inv_p <- function(A, p) {
   if ((!is.matrix(A)) || (!is.numeric(A))) {
     stop("argument must be a numeric matrix")
