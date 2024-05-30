@@ -53,3 +53,13 @@ inv_p(A, 7)
 #> [2,]    3    3    1
 #> [3,]    5    0    2
 ```
+
+## Note
+
+Some of the code for the `rref_p()` function was taken from the
+`echelon()` function in the `matlib` package. Because of the different
+way row operations need to work when using entries in $\mathbb{F}_p$, no
+functions could be copied entirely. This makes attribution somewhat
+difficult. The license chosen for this package was specifically chosen
+to be compatible with the license in use for the `matlib` package
+because of this overlap in code.
