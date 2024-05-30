@@ -7,10 +7,10 @@
 <!-- badges: end -->
 
 The goal of matrixmodp is to make two matrix algebra tasks easier when
-working with the fields $F_p$. Specifically, this package provides two
-functions: `rref_p()` calculates the reduced-row echelon form of a
-matrix, and `inv_p()` calculates the inverse of a (square, invertible)
-matrix.
+working with the fields $\mathbb{F}_p$. Specifically, this package
+provides two functions: `rref_p()` calculates the reduced-row echelon
+form of a matrix, and `inv_p()` calculates the inverse of a (square,
+invertible) matrix.
 
 ## Installation
 
@@ -25,7 +25,7 @@ devtools::install_github("rhigginbottom/matrixmodp")
 ## Example
 
 We first provide an example of finding the RREF of a matrix with entries
-in $F_5$.
+in $\mathbb{F}_5$.
 
 ``` r
 library(matrixmodp)
@@ -38,7 +38,8 @@ rref_p(A, 5)
 #> [3,]    0    0    1    0
 ```
 
-We now show how to find the inverse of a $3\times 3$ matrix over $F_7$.
+We now show how to find the inverse of a $3\times 3$ matrix over
+$\mathbb{F}_7$.
 
 ``` r
 library(matrixmodp)
