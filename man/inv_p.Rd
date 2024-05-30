@@ -18,8 +18,8 @@ A square matrix of the same size as \code{A}
 \code{inv_p()} finds the inverse of a square matrix over the field \eqn{F_p}. The function checks for invertibility and then row-reduces the augmented matrix \eqn{[A|I]} over \eqn{F_p} to find the inverse.
 }
 \examples{
-B <- matrix(c(5,2,3,6,5,5,4,0,2),3,3)
+B <- matrix(c(5, 2, 3, 6, 5, 5, 4, 0, 2), 3, 3)
 inv_p(B, 7)
-C <- matrix(c(3,0,4,0,2,1,1,3,0,3,0,1,3,0,2,1),4,4)
-inv_p(C,5)
+C <- matrix(c(3, 0, 4, 0, 2, 1, 1, 3, 0, 3, 0, 1, 3, 0, 2, 1), 4, 4)
+inv_p(C, 5)
 }
