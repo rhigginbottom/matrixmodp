@@ -4,6 +4,8 @@
 # matrixmodp
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/rhigginbottom/matrixmodp/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/rhigginbottom/matrixmodp/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of matrixmodp is to make two matrix algebra tasks easier when

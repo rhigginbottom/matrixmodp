@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # matrixmodp
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/rhigginbottom/matrixmodp/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/rhigginbottom/matrixmodp/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of matrixmodp is to make two matrix algebra tasks easier when working with the fields $\mathbb{F}_p$. Specifically, this package provides two functions: `rref_p()` calculates the reduced-row echelon form of a matrix, and `inv_p()` calculates the inverse of a (square, invertible) matrix.
