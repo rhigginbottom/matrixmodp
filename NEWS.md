@@ -1,3 +1,3 @@
-# matrixmodp (development version)
+# matrixmodp 0.1.0
 
 * Initial CRAN submission.
