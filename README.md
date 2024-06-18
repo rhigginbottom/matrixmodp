@@ -16,6 +16,20 @@ invertible) matrix.
 
 ## Installation
 
+You can install the public released version of `matrixmodp` from CRAN
+with:
+
+``` r
+install.packages("matrixmodp")
+#> Installing package into 'C:/Users/rhigginbottom/AppData/Local/Temp/Rtmpc35hmI/temp_libpath93c0442736d5'
+#> (as 'lib' is unspecified)
+#> Warning: package 'matrixmodp' is not available for this version of R
+#> 
+#> A version of this package for your version of R might be available elsewhere,
+#> see the ideas at
+#> https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages
+```
+
 You can install the development version of matrixmodp from
 [GitHub](https://github.com/) with:
 

@@ -2,7 +2,7 @@ Package: matrixmodp
 Title: Functions for Working with Matrices over Finite Prime Fields
 Version: 0.1.0
 Authors@R: 
-    person("Ryan", , "Higginbottom", "rhigginbottom@washjeff.edu", role = c("aut", "cre"))
+    person(given = "Ryan", , family = "Higginbottom", "rhigginbottom@washjeff.edu", role = c("aut", "cre", "cph"))
 Description: Provides functions for row-reducing and inverting matrices with
     entries in many of the finite fields (those with a prime number of 
     elements). With this package, users will be able to find the reduced row 

@@ -23,6 +23,12 @@ The goal of matrixmodp is to make two matrix algebra tasks easier when working w
 
 ## Installation
 
+You can install the public released version of `matrixmodp` from CRAN with:
+
+```{r}
+install.packages("matrixmodp")
+```
+
 You can install the development version of matrixmodp from [GitHub](https://github.com/) with:
 
 ``` r
