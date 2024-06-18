@@ -69,8 +69,18 @@
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>You can install the development version of matrixmodp from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
+<p>You can install the public released version of <code>matrixmodp</code> from CRAN with:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"matrixmodp"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Installing package into 'C:/Users/rhigginbottom/AppData/Local/Temp/Rtmpc35hmI/temp_libpath93c0442736d5'</span></span>
+<span><span class="co">#&gt; (as 'lib' is unspecified)</span></span>
+<span><span class="co">#&gt; Warning: package 'matrixmodp' is not available for this version of R</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; A version of this package for your version of R might be available elsewhere,</span></span>
+<span><span class="co">#&gt; see the ideas at</span></span>
+<span><span class="co">#&gt; https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages</span></span></code></pre></div>
+<p>You can install the development version of matrixmodp from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># install.packages("devtools")</span></span>
 <span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"rhigginbottom/matrixmodp"</span><span class="op">)</span></span></code></pre></div>
 </div>
@@ -78,7 +88,7 @@
 <h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
 </h2>
 <p>We first provide an example of finding the RREF of a matrix with entries in <span class="math inline">𝔽<sub>5</sub></span>.</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/rhigginbottom/matrixmodp" class="external-link">matrixmodp</a></span><span class="op">)</span></span>
 <span><span class="va">entries</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">4</span>, <span class="fl">1</span>, <span class="fl">2</span>, <span class="fl">0</span>, <span class="fl">0</span>, <span class="fl">3</span>, <span class="fl">4</span>, <span class="fl">0</span>, <span class="fl">0</span>, <span class="fl">1</span>, <span class="fl">4</span>, <span class="fl">1</span><span class="op">)</span></span>
 <span><span class="va">A</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/matrix.html" class="external-link">matrix</a></span><span class="op">(</span><span class="va">entries</span>, <span class="fl">3</span>, <span class="fl">4</span><span class="op">)</span></span>
@@ -88,7 +98,7 @@
 <span><span class="co">#&gt; [2,]    0    1    0    1</span></span>
 <span><span class="co">#&gt; [3,]    0    0    1    0</span></span></code></pre></div>
 <p>We now show how to find the inverse of a <span class="math inline">3 × 3</span> matrix over <span class="math inline">𝔽<sub>7</sub></span>.</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/rhigginbottom/matrixmodp" class="external-link">matrixmodp</a></span><span class="op">)</span></span>
 <span><span class="va">entries</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">3</span>, <span class="fl">3</span>, <span class="fl">3</span>, <span class="fl">2</span>, <span class="fl">0</span>, <span class="fl">2</span>, <span class="fl">1</span>, <span class="fl">2</span>, <span class="fl">5</span><span class="op">)</span></span>
 <span><span class="va">A</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/matrix.html" class="external-link">matrix</a></span><span class="op">(</span><span class="va">entries</span>, <span class="fl">3</span>, <span class="fl">3</span><span class="op">)</span></span>
@@ -131,7 +141,7 @@
 <div class="developers">
 <h2 data-toc-skip>Developers</h2>
 <ul class="list-unstyled">
-<li>Ryan Higginbottom <br><small class="roles"> Author, maintainer </small>  </li>
+<li>Ryan Higginbottom <br><small class="roles"> Author, maintainer, copyright holder </small>  </li>
 </ul>
 </div>
 
