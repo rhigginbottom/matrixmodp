@@ -1,5 +1,5 @@
 Package: matrixmodp
-Title: Functions for Working with Matrices over Finite Prime Fields
+Title: Working with Matrices over Finite Prime Fields
 Version: 0.2.0
 Authors@R: 
     person(given = "Ryan", , family = "Higginbottom", "rhigginbottom@washjeff.edu", role = c("aut", "cre", "cph"))
