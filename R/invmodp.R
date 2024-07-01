@@ -50,5 +50,5 @@ inv_p <- function(A, p) {
   C <- rref_p(B, p)
   sink()
   D <- C[, (n + 1):(2 * n)]
-  print(D)
+  return(D)
 }

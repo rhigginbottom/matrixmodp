@@ -1,3 +1,9 @@
+## Second Resubmission
+
+In response to the feedback about my first resubmission, I have done the following:  
+
+* changed `print` to `return` at the end of both of the major functions in this package, as suggested.
+
 ## Resubmission
 
 In response to the feedback about the initial submission, I have done the following:  

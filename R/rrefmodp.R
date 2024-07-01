@@ -77,5 +77,5 @@ rref_p <- function(A, p) {
     A <- A[-zeros, , drop = FALSE]
     A <- rbind(A, zeroRows)
   }
-  print(A)
+  return(A)
 }
